@@ -1,0 +1,15 @@
+PILHAS
+
+Somente empilhera  para acrescentar e faz POP para retirar, só tira do topo.
+
+2 Pilhas
+
+Para fazer uma Fila:
+
+
+- primeiro item da pilha é importante guardar, ele é como se fosse o primeira cara de uma fila a ser atendido
+- o ultimo a ser inserido também é importante guardar (será o ultimo elemento a ser consumido)
+
+- Conforme a fila aumenta, novo valores são empileirados, para consumir o cara que chegou primeiro é preciso fazer um POP para a pilha auxiliar de todos os elementos que chegaram depois dele e o novo prioritário é o anterior ao primeiro da fila (ou seja o ultimo a ser realizado POP)
+
+- Qualquer manobra utilizar pilha auxiliar (tipo torre de Hanoi)
